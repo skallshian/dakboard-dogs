@@ -1,67 +1,21 @@
 [
   {
-    "name": "Toby",
-    "status": "current",
-    "photo_url": null,
-    "departs": "2026-10-10",
-    "arrives": null,
-    "breed": "Labrador mix",
-    "age_years": 4,
-    "weight_lbs": 62,
-    "fixed": true,
-    "tags": [
-      "High energy",
-      "Good w/ kids",
-      "Loves water"
-    ],
-    "feeding": "1 cup kibble, 7am & 6pm \u2014 in the mudroom bin",
-    "walks": "2x daily, leash-reactive to bikes",
-    "meds": null,
-    "alert": "Chicken allergy \u2014 treats in blue bag only",
-    "owner_name": "Marisol R.",
-    "booking_id": "example-1"
-  },
-  {
-    "name": "Max",
-    "status": "current",
-    "photo_url": null,
-    "departs": "2026-10-12",
-    "arrives": null,
-    "breed": "Beagle",
-    "age_years": 7,
-    "weight_lbs": 24,
-    "fixed": true,
-    "tags": [
-      "Easygoing",
-      "Snorer"
-    ],
-    "feeding": "1/2 cup kibble, 7am & 6pm",
-    "walks": "Short, loves the porch instead",
-    "meds": null,
-    "alert": null,
-    "owner_name": "Priya N.",
-    "booking_id": "example-2"
-  },
-  {
-    "name": "Bella",
+    "name": "Hazel",
     "status": "upcoming",
     "chip_label": "Arrives tomorrow",
     "photo_url": null,
-    "departs": "2026-10-14",
-    "arrives": "2026-10-11",
-    "breed": "Goldendoodle",
-    "age_years": 2,
-    "weight_lbs": 41,
+    "departs": "2026-09-16",
+    "arrives": "2026-09-15",
+    "breed": "Beagle",
+    "age_years": 8,
+    "weight_lbs": 31,
     "fixed": true,
-    "tags": [
-      "Anxious alone",
-      "Crate trained"
-    ],
-    "feeding": "3/4 cup wet food, 8am & 5:30pm",
-    "walks": null,
+    "tags": ["Moderate energy", "Gentle, loves people", "Friendly with dogs"],
+    "feeding": "3x daily, 1/2 cup prescribed dry food — morning, 4–5pm, 7–8pm. Owner sends her food.",
+    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
     "meds": null,
-    "alert": "Escape artist \u2014 check gate latch",
-    "owner_name": "Devon K.",
-    "booking_id": "example-3"
+    "alert": "Prescription diet for bladder stones — no other food. Occasional morning nausea.",
+    "owner_name": "Daniel H.",
+    "booking_id": "A50KBPaQ"
   }
 ]
