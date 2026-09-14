@@ -22,7 +22,7 @@
   body{
     margin:0;
     padding:40px 32px;
-    background: var(--board-bg);
+    background: transparent;
     font-family:'Work Sans', sans-serif;
     display:flex;
     flex-direction:column;
@@ -37,7 +37,8 @@
   .section{ width:100%; max-width:1080px; display:flex; flex-direction:column; align-items:center; gap:16px; }
   .section-title{
     align-self:flex-start;
-    color:#a8a595;
+    color:#e8e4d8;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.55);
     font-size:14px;
     font-family:'Work Sans', sans-serif;
     font-weight:500;
@@ -53,7 +54,7 @@
   }
   .tag::before{
     content:""; position:absolute; top:18px; left:18px; width:16px; height:16px;
-    border-radius:50%; background: var(--board-bg);
+    border-radius:50%; background: rgba(0,0,0,0.38);
     box-shadow: inset 0 2px 3px rgba(0,0,0,0.4); z-index:3;
   }
   .photo{
@@ -196,7 +197,7 @@ async function render(){
   const upcoming = dogs.filter(d => d.status === 'upcoming');
 
   if(!current.length && !upcoming.length){
-    root.innerHTML = '<div class="empty">No dogs on the property right now</div>';
+    root.innerHTML = '';
     return;
   }
 
