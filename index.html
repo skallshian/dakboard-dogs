@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Current Dogs — Double Rock Acres</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --board-bg: #23241f;
+    --tag-face: #efe7d8;
+    --ink: #2b2a24;
+    --ink-soft: #6b6a5f;
+    --sage: #5b7551;
+    --sage-tint: #e4ead9;
+    --rust: #a5482f;
+    --rust-tint: #f4ded6;
+    --hairline: #d8cfba;
+  }
+  *{ box-sizing:border-box; }
+  html,body{ height:100%; }
+  body{
+    margin:0;
+    padding:40px 32px;
+    background: var(--board-bg);
+    font-family:'Work Sans', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:32px;
+  }
+  .empty{
+    color:#8c8a7c;
+    font-size:16px;
+    padding-top:40px;
+  }
+  .section{ width:100%; max-width:1080px; display:flex; flex-direction:column; align-items:center; gap:16px; }
+  .section-title{
+    align-self:flex-start;
+    color:#a8a595;
+    font-size:14px;
+    font-family:'Work Sans', sans-serif;
+    font-weight:500;
+    border-left: 3px solid var(--sage);
+    padding-left:10px;
+  }
+  .row{ display:flex; gap:32px; flex-wrap:wrap; justify-content:center; width:100%; }
+  .row-upcoming{ gap:24px; }
+  .tag{
+    position:relative; width:320px; background: var(--tag-face);
+    border-radius: 14px 14px 14px 40px; overflow:hidden;
+    box-shadow: 0 18px 40px -18px rgba(0,0,0,0.55);
+  }
+  .tag::before{
+    content:""; position:absolute; top:18px; left:18px; width:16px; height:16px;
+    border-radius:50%; background: var(--board-bg);
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.4); z-index:3;
+  }
+  .photo{
+    position:relative; height:220px; background-size:cover; background-position:center;
+    background-color:#78876a;
+  }
+  .photo.no-photo{
+    background:
+      radial-gradient(circle at 32% 28%, #c9bfa4 0%, transparent 42%),
+      linear-gradient(155deg, #b9ab86 0%, #8d9a78 55%, #5f6f52 100%);
+  }
+  .photo svg{ position:absolute; bottom:-6px; right:-6px; width:150px; height:150px; opacity:0.9; }
+  .status-chip{
+    position:absolute; bottom:12px; left:16px; background: rgba(43,42,36,0.78);
+    color:#efe7d8; font-size:12.5px; padding:5px 10px 5px 26px; border-radius:20px;
+  }
+  .status-chip::before{
+    content:""; position:absolute; left:10px; top:50%; transform:translateY(-50%);
+    width:7px; height:7px; border-radius:50%; background:#8fc17a;
+  }
+  .status-chip.upcoming::before{ background:#d4b95a; }
+  .body{ padding:18px 20px 20px; }
+  .name-row{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:2px; }
+  .name{ font-family:'Fraunces', serif; font-weight:600; font-size:30px; color:var(--ink); line-height:1; }
+  .with-us{ font-size:12px; color:var(--ink-soft); text-align:right; line-height:1.3; }
+  .with-us strong{ display:block; color:var(--ink); font-size:13px; }
+  .meta{ font-size:14px; color: var(--ink-soft); margin-bottom:12px; }
+  .tags-row{ display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap; }
+  .pill{
+    font-size:11.5px; padding:4px 10px; border-radius:20px;
+    background: var(--sage-tint); color: var(--sage); border:1px solid rgba(91,117,81,0.25);
+  }
+  .divider{ height:1px; background: var(--hairline); margin: 14px 0; }
+  .field{ font-size:13.5px; line-height:1.5; color:var(--ink); margin-bottom:8px; }
+  .field .label{ color:var(--ink-soft); margin-right:4px; }
+  .alert{
+    display:flex; gap:8px; background: var(--rust-tint); border-left:3px solid var(--rust);
+    padding:8px 10px; border-radius:6px; font-size:13px; color: #7a3520;
+    margin-bottom:12px; line-height:1.4;
+  }
+  .alert svg{ flex-shrink:0; margin-top:2px; }
+  .footer{
+    border-top:1px solid var(--hairline); padding-top:12px; display:flex;
+    justify-content:space-between; align-items:flex-end; gap:10px;
+  }
+  .owner{ font-size:12.5px; color:var(--ink-soft); }
+  .owner strong{ display:block; color:var(--ink); font-size:13.5px; }
+
+  .tag.small{ width:230px; }
+  .tag.small .photo{ height:150px; }
+  .tag.small .photo svg{ width:105px; height:105px; }
+  .tag.small .body{ padding:14px 16px 16px; }
+  .tag.small .name{ font-size:22px; }
+  .tag.small .meta{ font-size:12px; margin-bottom:9px; }
+  .tag.small .with-us{ font-size:11px; }
+  .tag.small .with-us strong{ font-size:12px; }
+  .tag.small .tags-row{ margin-bottom:10px; }
+  .tag.small .pill{ font-size:10.5px; padding:3px 8px; }
+  .tag.small .divider{ margin:10px 0; }
+  .tag.small .field{ font-size:12px; margin-bottom:6px; }
+  .tag.small .alert{ font-size:11.5px; padding:6px 8px; margin-bottom:9px; }
+  .tag.small .footer{ padding-top:9px; }
+  .tag.small .owner strong{ font-size:12px; }
+  .tag.small .status-chip{ font-size:11px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+const PAW_SVG = '<svg viewBox="0 0 100 100"><path fill="#3d4a35" opacity="0.5" d="M50 20c-8 0-14 6-14 14 0 5 2 9 6 12-6 3-10 9-10 16 0 10 8 18 18 18s18-8 18-18c0-7-4-13-10-16 4-3 6-7 6-12 0-8-6-14-14-14z"/></svg>';
+const ALERT_SVG = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a5482f" stroke-width="2.4"><path d="M12 3l10 18H2z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="0.6" fill="#a5482f"/></svg>';
+
+function fmtDate(iso){
+  if(!iso) return '';
+  const d = new Date(iso + 'T00:00:00');
+  return d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric' });
+}
+
+function renderCard(dog, small){
+  const dateLabel = dog.status === 'current'
+    ? `<div class="with-us">departs<strong>${fmtDate(dog.departs)}</strong></div>`
+    : `<div class="with-us">through<strong>${fmtDate(dog.departs) || fmtDate(dog.arrives)}</strong></div>`;
+
+  const chipText = dog.status === 'current' ? 'With us now' : (dog.chip_label || 'Arriving soon');
+  const chipClass = dog.status === 'current' ? '' : 'upcoming';
+
+  const metaParts = [dog.breed, dog.age_years ? `${dog.age_years} yrs` : null,
+    dog.weight_lbs ? `${dog.weight_lbs} lbs` : null, dog.fixed ? 'fixed' : null].filter(Boolean);
+
+  const tagsRow = (dog.tags || []).map(t => `<span class="pill">${t}</span>`).join('');
+
+  const fields = [];
+  if(dog.feeding) fields.push(`<div class="field"><span class="label">Feeding:</span>${dog.feeding}</div>`);
+  if(dog.walks) fields.push(`<div class="field"><span class="label">Walks:</span>${dog.walks}</div>`);
+  if(dog.meds) fields.push(`<div class="field"><span class="label">Meds:</span>${dog.meds}</div>`);
+
+  const alertHtml = dog.alert
+    ? `<div class="alert">${ALERT_SVG}<span>${dog.alert}</span></div>` : '';
+
+  const photoStyle = dog.photo_url
+    ? `style="background-image:url('${dog.photo_url}')"` : '';
+  const photoInner = dog.photo_url ? '' : PAW_SVG;
+
+  return `
+  <div class="tag ${small ? 'small' : ''}">
+    <div class="photo ${dog.photo_url ? '' : 'no-photo'}" ${photoStyle}>
+      ${photoInner}
+      <div class="status-chip ${chipClass}">${chipText}</div>
+    </div>
+    <div class="body">
+      <div class="name-row">
+        <div class="name">${dog.name}</div>
+        ${dateLabel}
+      </div>
+      <div class="meta">${metaParts.join(' · ')}</div>
+      ${tagsRow ? `<div class="tags-row">${tagsRow}</div>` : ''}
+      <div class="divider"></div>
+      ${fields.join('')}
+      ${alertHtml}
+      <div class="footer">
+        <div class="owner">Owner<strong>${dog.owner_name || ''}</strong></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+async function render(){
+  const root = document.getElementById('root');
+  let dogs = [];
+  try{
+    const res = await fetch('./dogs.json', { cache: 'no-store' });
+    dogs = await res.json();
+  }catch(e){
+    root.innerHTML = '<div class="empty">Couldn\'t load dog data — check dogs.json</div>';
+    return;
+  }
+
+  const current = dogs.filter(d => d.status === 'current');
+  const upcoming = dogs.filter(d => d.status === 'upcoming');
+
+  if(!current.length && !upcoming.length){
+    root.innerHTML = '<div class="empty">No dogs on the property right now</div>';
+    return;
+  }
+
+  let html = '';
+  if(current.length){
+    html += `<div class="section"><div class="section-title">With us now</div>
+      <div class="row row-current">${current.map(d => renderCard(d, false)).join('')}</div></div>`;
+  }
+  if(upcoming.length){
+    html += `<div class="section"><div class="section-title">Arriving soon</div>
+      <div class="row row-upcoming">${upcoming.map(d => renderCard(d, true)).join('')}</div></div>`;
+  }
+  root.innerHTML = html;
+}
+
+render();
+</script>
+</body>
+</html>
