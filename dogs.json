@@ -1,11 +1,11 @@
 [
   {
     "name": "Hazel",
-    "status": "upcoming",
-    "chip_label": "Arrives tomorrow",
+    "status": "current",
+    "chip_label": null,
     "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
     "departs": "2026-09-16",
-    "arrives": "2026-09-15",
+    "arrives": null,
     "breed": "Beagle",
     "age_years": 8,
     "weight_lbs": 31,
