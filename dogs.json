@@ -17,5 +17,24 @@
     "alert": "Prescription diet for bladder stones — no other food. Occasional morning nausea.",
     "owner_name": "Daniel H.",
     "booking_id": "A50KBPaQ"
+  },
+  {
+    "name": "Chester",
+    "status": "upcoming",
+    "chip_label": "Day care Sat",
+    "photo_url": null,
+    "departs": "2026-09-19",
+    "arrives": "2026-09-19",
+    "breed": "Mixed",
+    "age_years": 2,
+    "weight_lbs": 60,
+    "fixed": null,
+    "tags": ["Shy at first", "Loves everybody", "Likes to play"],
+    "feeding": "Needs privacy to eat — feed him on his own, away from other dogs.",
+    "walks": null,
+    "meds": null,
+    "alert": null,
+    "owner_name": "Fitzroy O.",
+    "booking_id": "Nvk8wV3g"
   }
 ]
