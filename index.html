@@ -46,7 +46,7 @@ border-left: 3px solid var(--sage);
 padding-left:10px;
 }
 .row{ display:flex; gap:32px; flex-wrap:wrap; justify-content:center; width:100%; }
-.row-upcoming{ gap:24px; }
+.row-upcoming{ gap:16px; }
 .tag{
 position:relative; width:320px; background: var(--tag-face);
 border-radius: 14px 14px 14px 40px; overflow:hidden;
@@ -103,22 +103,22 @@ justify-content:space-between; align-items:flex-end; gap:10px;
 .owner{ font-size:12.5px; color:var(--ink-soft); }
 .owner strong{ display:block; color:var(--ink); font-size:13.5px; }
 
-.tag.small{ width:230px; }
-.tag.small .photo{ height:150px; }
-.tag.small .photo svg{ width:105px; height:105px; }
-.tag.small .body{ padding:14px 16px 16px; }
-.tag.small .name{ font-size:22px; }
-.tag.small .meta{ font-size:12px; margin-bottom:9px; }
-.tag.small .with-us{ font-size:11px; }
-.tag.small .with-us strong{ font-size:12px; }
-.tag.small .tags-row{ margin-bottom:10px; }
-.tag.small .pill{ font-size:10.5px; padding:3px 8px; }
-.tag.small .divider{ margin:10px 0; }
-.tag.small .field{ font-size:12px; margin-bottom:6px; }
-.tag.small .alert{ font-size:11.5px; padding:6px 8px; margin-bottom:9px; }
-.tag.small .footer{ padding-top:9px; }
-.tag.small .owner strong{ font-size:12px; }
-.tag.small .status-chip{ font-size:11px; }
+/* Upcoming = compact preview: photo, name, arrival timing, alert if present. No care-detail fields. */
+.tag.small{ width:168px; border-radius:10px 10px 10px 24px; }
+.tag.small::before{ top:11px; left:11px; width:10px; height:10px; }
+.tag.small .photo{ height:100px; }
+.tag.small .photo svg{ width:70px; height:70px; bottom:-4px; right:-4px; }
+.tag.small .status-chip{ bottom:7px; left:8px; font-size:9.5px; padding:3px 8px 3px 16px; border-radius:14px; }
+.tag.small .status-chip::before{ left:6px; width:5px; height:5px; }
+.tag.small .body{ padding:10px 12px 12px; }
+.tag.small .name-row{ display:block; margin-bottom:1px; }
+.tag.small .name{ font-size:19px; }
+.tag.small .with-us{ font-size:10.5px; text-align:left; margin-bottom:6px; }
+.tag.small .with-us strong{ display:inline; font-size:10.5px; margin-left:3px; }
+.tag.small .meta{ font-size:10.5px; margin-bottom:0; line-height:1.4; }
+.tag.small .tags-row, .tag.small .divider, .tag.small .field, .tag.small .footer{ display:none; }
+.tag.small .alert{ display:flex; gap:5px; font-size:10px; padding:6px 8px; margin:8px 0 0; border-radius:5px; line-height:1.3; }
+.tag.small .alert svg{ width:11px; height:11px; }
 </style>
 </head>
 <body>
