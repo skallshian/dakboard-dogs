@@ -1,11 +1,11 @@
 [
 {
 "name": "Chester",
-"status": "upcoming",
+"status": "current",
 "chip_label": "Day care Sat",
 "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Q3GBqVGQ/behayydqsj/original.jpeg?width=640&height=440&quality=85&fit=cover",
 "departs": "2026-09-19",
-"arrives": "2026-09-19",
+"arrives": null,
 "breed": "Mixed",
 "age_years": 2,
 "weight_lbs": 60,
