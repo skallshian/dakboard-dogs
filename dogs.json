@@ -1,24 +1,5 @@
 [
 {
-"name": "Chester",
-"status": "current",
-"chip_label": "Day care Sat",
-"photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Q3GBqVGQ/behayydqsj/original.jpeg?width=640&height=440&quality=85&fit=cover",
-"departs": "2026-09-19",
-"arrives": null,
-"breed": "Mixed",
-"age_years": 2,
-"weight_lbs": 60,
-"fixed": null,
-"tags": ["Shy at first", "Loves everybody", "Likes to play"],
-"feeding": "Needs privacy to eat — feed him on his own, away from other dogs.",
-"walks": null,
-"meds": null,
-"alert": null,
-"owner_name": "Fitzroy O.",
-"booking_id": "Nvk8wV3g"
-},
-{
 "name": "Hazel",
 "status": "upcoming",
 "chip_label": null,
