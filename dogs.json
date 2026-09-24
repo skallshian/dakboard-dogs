@@ -1,29 +1,6 @@
 [
   {
     "name": "Hazel",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-09-23",
-    "arrives": null,
-    "breed": "Beagle",
-    "age_years": 8,
-    "weight_lbs": 31,
-    "fixed": true,
-    "tags": [
-      "Moderate energy",
-      "Gentle, loves people",
-      "Friendly with dogs"
-    ],
-    "feeding": "3x daily, 1/2 cup prescribed dry food — morning, 4–5pm, 7–8pm. Owner sends her food.",
-    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
-    "meds": null,
-    "alert": "Prescription diet for bladder stones — no other food. Occasional morning nausea.",
-    "owner_name": "Daniel H.",
-    "booking_id": "gY5ZBKMg"
-  },
-  {
-    "name": "Hazel",
     "status": "upcoming",
     "chip_label": null,
     "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
