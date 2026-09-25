@@ -21,5 +21,28 @@
     "alert": "Prescription diet for bladder stones — no other food. Occasional morning nausea.",
     "owner_name": "Daniel H.",
     "booking_id": "Qnqz8Jmg"
+  },
+  {
+    "name": "Chappie",
+    "status": "upcoming",
+    "chip_label": "Day care",
+    "photo_url": null,
+    "departs": "2026-10-02",
+    "arrives": "2026-10-02",
+    "breed": "Labrador Retriever",
+    "age_years": 5,
+    "weight_lbs": 90,
+    "fixed": true,
+    "tags": [
+      "Low energy",
+      "Super mellow, sweet",
+      "Friendly with dogs"
+    ],
+    "feeding": "Fed twice a day",
+    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
+    "meds": null,
+    "alert": null,
+    "owner_name": "Denise C.",
+    "booking_id": "Ay0z16RQ"
   }
 ]
