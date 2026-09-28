@@ -44,5 +44,51 @@
     "alert": null,
     "owner_name": "Denise C.",
     "booking_id": "Ay0z16RQ"
+  },
+  {
+    "name": "Carley",
+    "status": "upcoming",
+    "chip_label": null,
+    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/N6YXpXjA/wklmfbgozg/original.jpeg?width=640&height=440&quality=85&fit=cover",
+    "departs": "2026-10-19",
+    "arrives": "2026-10-04",
+    "breed": "Mixed, Siberian Husky",
+    "age_years": 9,
+    "weight_lbs": 62,
+    "fixed": true,
+    "tags": [
+      "Moderate energy",
+      "Sweet, smart, attentive",
+      "Friendly with dogs"
+    ],
+    "feeding": "Fed twice a day",
+    "walks": "Needs a good adventure in the morning — then good for 6+ hours if not kenneled",
+    "meds": null,
+    "alert": "Doesn't like being alone — will howl (not destructive). Wary of cats; may freeze if scared.",
+    "owner_name": "Toby R.",
+    "booking_id": "gwbnRydN"
+  },
+  {
+    "name": "Hazel",
+    "status": "upcoming",
+    "chip_label": null,
+    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
+    "departs": "2026-10-05",
+    "arrives": "2026-10-04",
+    "breed": "Beagle",
+    "age_years": 8,
+    "weight_lbs": 31,
+    "fixed": true,
+    "tags": [
+      "Moderate energy",
+      "Gentle, loves people",
+      "Friendly with dogs"
+    ],
+    "feeding": "3x daily, 1/2 cup prescribed dry food — morning, 4–5pm, 7–8pm. Owner sends her food.",
+    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
+    "meds": null,
+    "alert": "Prescription diet for bladder stones — no other food. Occasional morning nausea.",
+    "owner_name": "Daniel H.",
+    "booking_id": "gVPwEoDA"
   }
 ]
