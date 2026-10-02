@@ -1,11 +1,11 @@
 [
   {
     "name": "Chappie",
-    "status": "upcoming",
+    "status": "current",
     "chip_label": null,
     "photo_url": null,
     "departs": "2026-10-02",
-    "arrives": "2026-10-02",
+    "arrives": null,
     "breed": "Labrador Retriever",
     "age_years": 5,
     "weight_lbs": 90,
