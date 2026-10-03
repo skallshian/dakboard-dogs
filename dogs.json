@@ -1,28 +1,5 @@
 [
   {
-    "name": "Chappie",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": null,
-    "departs": "2026-10-02",
-    "arrives": null,
-    "breed": "Labrador Retriever",
-    "age_years": 5,
-    "weight_lbs": 90,
-    "fixed": true,
-    "tags": [
-      "Low energy",
-      "Super mellow and sweet",
-      "Friendly with dogs"
-    ],
-    "feeding": "Fed twice a day (day care drop-off 9am, pick-up 4pm)",
-    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
-    "meds": null,
-    "alert": null,
-    "owner_name": "Denise C.",
-    "booking_id": "Ay0z16RQ"
-  },
-  {
     "name": "Hazel",
     "status": "upcoming",
     "chip_label": null,
