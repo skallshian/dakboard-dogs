@@ -67,5 +67,24 @@
     "alert": null,
     "owner_name": "Tim N.",
     "booking_id": "Az9pV1RQ"
+  },
+  {
+    "name": "Sophie",
+    "status": "upcoming",
+    "chip_label": "Day care",
+    "photo_url": null,
+    "departs": "2026-10-11",
+    "arrives": "2026-10-11",
+    "breed": "Goldendoodle",
+    "age_years": 6,
+    "weight_lbs": 50,
+    "fixed": null,
+    "tags": [],
+    "feeding": null,
+    "walks": null,
+    "meds": null,
+    "alert": null,
+    "owner_name": "Eva K.",
+    "booking_id": "AewZb68g"
   }
 ]
