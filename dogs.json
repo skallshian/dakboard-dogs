@@ -1,28 +1,5 @@
 [
   {
-    "name": "Chappie",
-    "status": "current",
-    "chip_label": "Day care",
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/NJlM1kXQ/oddssbfshk/original.jpg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-10-06",
-    "arrives": null,
-    "breed": "Labrador Retriever",
-    "age_years": 5,
-    "weight_lbs": 90,
-    "fixed": true,
-    "tags": [
-      "Low energy",
-      "Super mellow, sweet, loves to play",
-      "Friendly with dogs, cats and kids"
-    ],
-    "feeding": "Needs to be fed twice a day",
-    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
-    "meds": null,
-    "alert": null,
-    "owner_name": "Denise C.",
-    "booking_id": "gWKKBVEg"
-  },
-  {
     "name": "Carley",
     "status": "current",
     "chip_label": null,
