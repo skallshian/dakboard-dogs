@@ -46,22 +46,26 @@
     "booking_id": "Az9pV1RQ"
   },
   {
-    "name": "Sophie",
-    "status": "current",
-    "chip_label": "Day care",
-    "photo_url": null,
-    "departs": "2026-10-11",
-    "arrives": null,
-    "breed": "Goldendoodle",
-    "age_years": 6,
-    "weight_lbs": 50,
-    "fixed": null,
-    "tags": [],
-    "feeding": null,
-    "walks": null,
+    "name": "Hazel",
+    "status": "upcoming",
+    "chip_label": null,
+    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
+    "departs": "2026-10-14",
+    "arrives": "2026-10-13",
+    "breed": "Beagle",
+    "age_years": 8,
+    "weight_lbs": 31,
+    "fixed": true,
+    "tags": [
+      "Moderate energy",
+      "Gentle, sweet, well behaved",
+      "Friendly with dogs and kids"
+    ],
+    "feeding": "Needs to be fed 3 times a day (1/2 cup prescribed dry food) — morning, 4–5 PM, and 7–8 PM. Owner sends her own food.",
+    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
     "meds": null,
-    "alert": null,
-    "owner_name": "Eva K.",
-    "booking_id": "AewZb68g"
+    "alert": "Special prescription diet to prevent bladder stones — her food only. Occasional morning nausea; the evening feeding usually prevents it. Unsure with cats.",
+    "owner_name": "Daniel H.",
+    "booking_id": "QknDzzPg"
   }
 ]
