@@ -23,29 +23,6 @@
     "booking_id": "gwbnRydN"
   },
   {
-    "name": "Jake",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/NpLmvr1N/nesrolznnq/original.jpeg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-10-17",
-    "arrives": null,
-    "breed": "Golden Retriever",
-    "age_years": 4,
-    "weight_lbs": 60,
-    "fixed": true,
-    "tags": [
-      "Moderate energy",
-      "Friendly, active",
-      "Friendly with dogs, cats and kids"
-    ],
-    "feeding": "Needs to be fed twice a day — breakfast and around 6 PM. Owner sends his food and treats; one broth bone midday.",
-    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
-    "meds": "1 Dasuquin soft chew each evening right before bedtime (owner sends it).",
-    "alert": "Keep the Dasuquin chews out of reach — he thinks they're treats and would overdose. Cap his long walk at ~2 miles (left-knee CCL surgery, Feb 2026). Will chase deer if given the chance.",
-    "owner_name": "Tim N.",
-    "booking_id": "Az9pV1RQ"
-  },
-  {
     "name": "Hazel",
     "status": "upcoming",
     "chip_label": null,
