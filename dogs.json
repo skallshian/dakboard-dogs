@@ -1,34 +1,11 @@
 [
   {
-    "name": "Carley",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/N6YXpXjA/wklmfbgozg/original.jpeg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-10-19",
-    "arrives": null,
-    "breed": "Mixed, Siberian Husky",
-    "age_years": 9,
-    "weight_lbs": 62,
-    "fixed": true,
-    "tags": [
-      "Moderate energy",
-      "Sweet, smart, well trained",
-      "Friendly with dogs"
-    ],
-    "feeding": "Needs to be fed twice a day",
-    "walks": "Good adventure each morning, then fine for 6+ hours — as long as she is not shut in a kennel",
-    "meds": null,
-    "alert": "Hates being left alone — will howl for her people (not destructive). Owner brings her crate as a safe space. Wary of cats; may freeze if one is aggressive.",
-    "owner_name": "Toby R.",
-    "booking_id": "gwbnRydN"
-  },
-  {
     "name": "Hazel",
-    "status": "upcoming",
+    "status": "current",
     "chip_label": null,
     "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
     "departs": "2026-10-21",
-    "arrives": "2026-10-20",
+    "arrives": null,
     "breed": "Beagle",
     "age_years": 8,
     "weight_lbs": 31,
@@ -44,5 +21,51 @@
     "alert": "Special prescription diet to prevent bladder stones — her food only. Occasional morning nausea; the evening feeding usually prevents it. Unsure with cats.",
     "owner_name": "Daniel H.",
     "booking_id": "N0Ljz6KN"
+  },
+  {
+    "name": "Louie",
+    "status": "upcoming",
+    "chip_label": null,
+    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/NvLk2dvQ/rhoqqtwndk/original.jpg?width=640&height=440&quality=85&fit=cover",
+    "departs": "2026-10-27",
+    "arrives": "2026-10-27",
+    "breed": "Soft-Coated Wheaten Terrier",
+    "age_years": 5,
+    "weight_lbs": 38,
+    "fixed": true,
+    "tags": [
+      "Moderate energy",
+      "Very social, loves people and dogs",
+      "Friendly with dogs and kids"
+    ],
+    "feeding": "Needs to be fed twice a day — prescription dry food only.",
+    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
+    "meds": null,
+    "alert": "Prescription food only (skin issues) — treats limited to prescription treats or fresh veg/fruit. Jumps up on people when greeting. Unsure with cats.",
+    "owner_name": "Cheri F.",
+    "booking_id": "gX9nzxjQ"
+  },
+  {
+    "name": "Hazel",
+    "status": "upcoming",
+    "chip_label": "Returning Oct 27",
+    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
+    "departs": "2026-10-28",
+    "arrives": "2026-10-27",
+    "breed": "Beagle",
+    "age_years": 8,
+    "weight_lbs": 31,
+    "fixed": true,
+    "tags": [
+      "Moderate energy",
+      "Gentle, sweet, well behaved",
+      "Friendly with dogs and kids"
+    ],
+    "feeding": "Needs to be fed 3 times a day (1/2 cup prescribed dry food) — morning, 4–5 PM, and 7–8 PM. Owner sends her own food.",
+    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
+    "meds": null,
+    "alert": "Special prescription diet to prevent bladder stones — her food only. Occasional morning nausea; the evening feeding usually prevents it. Unsure with cats.",
+    "owner_name": "Daniel H.",
+    "booking_id": "gxPDvM8g"
   }
 ]
