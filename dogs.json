@@ -1,28 +1,5 @@
 [
   {
-    "name": "Louie",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/NvLk2dvQ/rhoqqtwndk/original.jpg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-10-27",
-    "arrives": null,
-    "breed": "Soft-Coated Wheaten Terrier",
-    "age_years": 5,
-    "weight_lbs": 38,
-    "fixed": true,
-    "tags": [
-      "Moderate energy",
-      "Very social, loves people and dogs",
-      "Friendly with dogs and kids"
-    ],
-    "feeding": "Needs to be fed twice a day — prescription dry food only.",
-    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
-    "meds": null,
-    "alert": "Prescription food only (skin issues) — treats limited to prescription treats or fresh veg/fruit. Jumps up on people when greeting. Unsure with cats.",
-    "owner_name": "Cheri F.",
-    "booking_id": "gX9nzxjQ"
-  },
-  {
     "name": "Hazel",
     "status": "current",
     "chip_label": null,
