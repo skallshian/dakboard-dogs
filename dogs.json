@@ -1,11 +1,11 @@
 [
   {
     "name": "Coco",
-    "status": "upcoming",
+    "status": "current",
     "chip_label": null,
     "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/N6D0MXjQ/vhgidxcrry/original.jpg?width=640&height=440&quality=85&fit=cover",
     "departs": "2026-11-01",
-    "arrives": "2026-10-30",
+    "arrives": null,
     "breed": "Shih Tzu",
     "age_years": 15,
     "weight_lbs": 10,
@@ -24,11 +24,11 @@
   },
   {
     "name": "Lily",
-    "status": "upcoming",
+    "status": "current",
     "chip_label": null,
     "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad9Y4npN/ndufygwdmx/original.jpg?width=640&height=440&quality=85&fit=cover",
     "departs": "2026-11-01",
-    "arrives": "2026-10-30",
+    "arrives": null,
     "breed": "Shih Tzu",
     "age_years": 12,
     "weight_lbs": 7,
