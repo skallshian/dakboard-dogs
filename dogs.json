@@ -1,48 +1,25 @@
 [
   {
-    "name": "Coco",
-    "status": "current",
+    "name": "Hazel",
+    "status": "upcoming",
     "chip_label": null,
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/N6D0MXjQ/vhgidxcrry/original.jpg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-11-01",
-    "arrives": null,
-    "breed": "Shih Tzu",
-    "age_years": 15,
-    "weight_lbs": 10,
+    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad71rqYQ/xyentmntxk/original.jpeg?width=640&height=440&quality=85&fit=cover",
+    "departs": "2026-11-04",
+    "arrives": "2026-11-03",
+    "breed": "Beagle",
+    "age_years": 8,
+    "weight_lbs": 31,
     "fixed": true,
     "tags": [
-      "Low energy",
-      "Cuddly lap dog",
+      "Moderate energy",
+      "Gentle with people",
       "Friendly with dogs"
     ],
-    "feeding": "Needs to be fed twice a day",
-    "walks": "Potty break every 2 hours; can be left alone 1–4 hours",
-    "meds": "Pill — details to be provided by owner",
-    "alert": "Super senior with limited vision and hearing. Nervous in wind storms and around fireworks. Comfortable wearing a diaper if needed. Unsure with cats and children.",
-    "owner_name": "Elizabeth S.",
-    "booking_id": "APRX9lXg"
-  },
-  {
-    "name": "Lily",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": "https://www.rover.com/cf-image-cdn/remote/images/pets/Ad9Y4npN/ndufygwdmx/original.jpg?width=640&height=440&quality=85&fit=cover",
-    "departs": "2026-11-01",
-    "arrives": null,
-    "breed": "Shih Tzu",
-    "age_years": 12,
-    "weight_lbs": 7,
-    "fixed": true,
-    "tags": [
-      "Low energy",
-      "Joyful, playful, cuddly",
-      "Friendly with dogs and kids"
-    ],
-    "feeding": "Needs to be fed twice a day — prefers privacy while eating.",
-    "walks": "Potty break every 4 hours; can be left alone 1–4 hours",
+    "feeding": "Needs to be fed 3 times a day (1/2 cup prescribed dry food): morning, late afternoon 4-5 pm, evening 7-8 pm. Owner sends her food.",
+    "walks": "Potty break every 4 hours; can be left alone 1-4 hours",
     "meds": null,
-    "alert": "Unsure with cats.",
-    "owner_name": "Elizabeth S.",
-    "booking_id": "APRX9lXg"
+    "alert": "Prescription diet only to prevent bladder stones - no other food. Occasional morning nausea; evening feeding usually prevents it.",
+    "owner_name": "Daniel H.",
+    "booking_id": "AojbJjWQ"
   }
 ]
