@@ -1,11 +1,11 @@
 [
   {
     "name": "Hazel",
-    "status": "upcoming",
+    "status": "current",
     "chip_label": null,
     "photo_url": null,
     "departs": "2026-11-18",
-    "arrives": "2026-11-17",
+    "arrives": null,
     "breed": "Beagle",
     "age_years": 8.5,
     "weight_lbs": 31,
