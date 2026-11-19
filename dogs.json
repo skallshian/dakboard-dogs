@@ -1,24 +1,5 @@
 [
   {
-    "name": "Hazel",
-    "status": "current",
-    "chip_label": null,
-    "photo_url": null,
-    "departs": "2026-11-18",
-    "arrives": null,
-    "breed": "Beagle",
-    "age_years": 8.5,
-    "weight_lbs": 31,
-    "fixed": true,
-    "tags": ["Friendly with dogs", "Friendly with children", "Moderate energy level"],
-    "feeding": "3x daily, 1/2 cup prescribed dry food: morning, 4-5pm, 7-8pm. Owner sends her food.",
-    "walks": "Potty break every 4 hrs; can be left alone 1-4 hrs",
-    "meds": null,
-    "alert": "Prescription diet only (bladder stones) - no other food. Occasional morning nausea; evening feeding helps.",
-    "owner_name": "Daniel H.",
-    "booking_id": "Q1or8pmN"
-  },
-  {
     "name": "Ace",
     "status": "upcoming",
     "chip_label": null,
