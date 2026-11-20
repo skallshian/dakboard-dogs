@@ -1,11 +1,11 @@
 [
   {
     "name": "Ace",
-    "status": "upcoming",
+    "status": "current",
     "chip_label": null,
     "photo_url": null,
     "departs": "2026-11-20",
-    "arrives": "2026-11-20",
+    "arrives": null,
     "breed": "Labrador Retriever",
     "age_years": 2.1,
     "weight_lbs": 63,
