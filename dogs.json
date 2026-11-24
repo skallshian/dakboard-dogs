@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "Hazel",
+    "status": "upcoming",
+    "photo_url": null,
+    "departs": "2026-12-02",
+    "arrives": "2026-12-01",
+    "breed": "Beagle",
+    "age_years": 8.5,
+    "weight_lbs": 31,
+    "fixed": true,
+    "tags": ["Gentle", "Moderate energy", "Friendly with dogs"],
+    "feeding": "3x/day, 1/2 cup prescribed dry food: morning, 4-5pm, 7-8pm. Owner sends her food.",
+    "walks": "Potty break every 4 hours; can be left alone 1-4 hours.",
+    "meds": null,
+    "alert": "Prescription diet for bladder stones - no other food. Occasional morning nausea; evening feeding usually prevents it. Unsure with cats.",
+    "owner_name": "Daniel H.",
+    "booking_id": "g7vEzwqN"
+  }
+]
